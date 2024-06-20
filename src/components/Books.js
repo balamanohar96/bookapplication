@@ -54,7 +54,7 @@ function Books() {
         placeholder="type book name"
       ></input>
       {response.length === 0 ? (
-        <h2>loading..................</h2>
+        <h2>fetching Results...</h2>
       ) : matched.length === 0 ? (
         <h2>no matching results found.</h2>
       ) : (
